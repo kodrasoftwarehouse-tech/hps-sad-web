@@ -1,0 +1,86 @@
+.titulo{
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.select_sala_espera{
+    width: 200px;
+    height: 40px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.card_content_consultoria{
+    height: 70px;
+    margin-top: 20px;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    gap: 20px;
+}
+
+
+.btn_status1{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: var(--cor-primaria);
+    font-size: 16px;
+    color: var(--cor-branca);
+    border-style: none;
+
+    &:hover{
+        background-color: var(--cor-secundaria);
+        cursor: pointer;
+    }
+}
+
+.btn_status2{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: red;
+    font-size: 16px;
+    color: var(--cor-branca);
+    border-style: none;
+    margin-left: 10px;
+    &:hover{
+        background-color: rgb(178, 4, 4);
+        cursor: pointer;
+    }
+}
+
+.btn_status3{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    background-color:rgb(0, 162, 255);
+    font-size: 16px;
+    color: var(--cor-branca);
+    border-style: none;
+    margin-left: 10px;
+    cursor: pointer;
+    &:hover{
+        background-color: rgb(3, 116, 182);
+    }
+}
+
+
+.mensagem_vazia{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}

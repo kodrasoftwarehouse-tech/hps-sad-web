@@ -1,0 +1,43 @@
+.container{
+    margin-top: 100px;
+    margin-left: 15px;
+}
+
+.card_visitas{
+  position: relative;
+  height:150px; 
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  background-color: white;
+  overflow: hidden;
+  margin: 15px 15px;
+}
+
+.lista_vazia{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+
+.info_visita{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.btn{
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  height: 40px;
+  border-radius: 0px 0px 10px 10px;
+  border-style: none;
+  background-color: var(--cor-primaria);
+  font-size: 16px;
+  color: var(--cor-branca);
+
+}

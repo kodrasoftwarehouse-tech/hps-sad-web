@@ -1,0 +1,46 @@
+.container_modal{
+    width: 90%;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.btn_cancelar{
+    height: 30px;
+    font-size: 20px;
+    color: var(--cor-branca);
+    background-color: red;
+    border-style: none;
+    width: 120px;
+    border-radius: 10px;
+}
+
+.config_form{
+    display: flex;
+    flex-direction: column;
+
+    & input{
+        height: 35px;
+    }
+    
+}
+
+.btn{
+    height: 40px;
+    font-size: 16px;
+    color: var(--cor-branca);
+    background-color: var(--cor-primaria);
+    border-style: none;
+    
+}
+
+.btn_maps{
+    height: 40px;
+    font-size: 16px;
+    color: var(--cor-branca);
+    border-style: none;
+    background-color: rgb(0, 174, 255);
+}

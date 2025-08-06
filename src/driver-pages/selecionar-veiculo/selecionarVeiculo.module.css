@@ -1,0 +1,37 @@
+.container_selecionar_veiculo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: calc(100vh - 40px);
+}
+
+.card_selecionar_veiculo{
+    width: 300px;
+    padding: 20px;
+}
+
+.conteudo_card{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 50px;
+
+    & .select_veiculo{
+        height: 50px;
+        font-size: 20px;
+        padding: 0px 10px;
+    }
+
+    & .btn{
+        height: 50px;
+        background-color: var(--cor-primaria);
+        border-style: none;
+        color: var(--cor-branca);
+        font-size: 20px;
+    }
+
+    & .btn_limpar {
+  background-color: #dc3545; 
+}
+}

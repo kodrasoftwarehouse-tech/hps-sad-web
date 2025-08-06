@@ -1,0 +1,79 @@
+.container_modal{
+    width: 70%;
+
+    & h2{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+}
+
+.form_group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.form_group label {
+  margin-bottom: 0.25rem;
+  font-weight: 500;
+}
+
+.form_group input,select{
+  padding-left: 8px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  height: 30px;
+}
+.container_forms{
+    display: flex;
+    gap: 20px;
+}
+.input_cep{
+    width: 100px;
+}
+.input_logradouro{
+    width: 500px;
+}
+.input_complemento{
+    width: 200px;
+}
+.input_numero{
+    width: 150px;
+}
+
+.input_estado{
+    width: 60px;
+}
+
+.container_checkbox{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.input_checkbox{
+    margin-right: 10px;
+}
+
+
+.container_btn{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.btn{
+     width: 250px;
+    height: 35px;
+    background-color: var(--cor-primaria);
+    border-style: none;
+    color: var(--cor-branca);
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+
+    &:hover{
+        background-color: var(--cor-secundaria);
+    }
+}

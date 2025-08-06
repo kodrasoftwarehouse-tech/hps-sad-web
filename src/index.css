@@ -1,0 +1,18 @@
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+:root{
+  --cor-primaria: #6DC188;
+  --cor-secundaria: #5ca172;
+  --cor-branca:#fff
+}
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}

@@ -1,0 +1,41 @@
+.container_modal_baixa{
+    width: 300px;
+    height: 150px;
+
+    & h3{
+      text-align: center;
+    }
+}
+
+.container_btn{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    
+    & button{
+        width: 120px;
+        color: var(--cor-branca);
+        height: 30px;
+        border-radius: 10px;
+        border-style: none;
+        cursor: pointer;
+    }
+}
+
+.btn_sim{
+    background-color: var(--cor-primaria);
+    
+    &:hover{
+        background-color: var(--cor-secundaria);
+    }
+}
+
+.btn_nao{
+    background-color: red;
+
+    &:hover{
+        background-color: rgb(192, 24, 24);
+    }
+}

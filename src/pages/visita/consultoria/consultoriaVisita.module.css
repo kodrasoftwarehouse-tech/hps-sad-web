@@ -1,0 +1,67 @@
+.select_consultoria_visita{
+    width: 200px;
+    height: 40px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.card_content_consultoria{
+    height: 70px;
+    margin-top: 20px;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.info{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    gap: 20px;
+}
+
+.btn{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: var(--cor-primaria);
+    font-size: 16px;
+    color: var(--cor-branca);
+    border-style: none;
+
+    &:hover{
+        background-color: var(--cor-secundaria);
+        cursor: pointer;
+    }
+}
+.btn2{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: red;
+    font-size: 16px;
+    color: var(--cor-branca);
+    border-style: none;
+
+    &:hover{
+        background-color: rgb(189, 1, 1);
+        cursor: pointer;
+    }
+}
+
+.mensagem_vazia{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+
+.titulo{
+    text-align: center;
+    margin: 20px 0px;
+}

@@ -1,0 +1,25 @@
+.container_modal{
+    width: 350px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    & h3{
+        text-align: center;
+    }
+
+}
+
+.btn{
+    height: 30px;
+    color: var(--cor-branca);
+    background-color: var(--cor-primaria);
+    font-size: 16px;
+    border-style: none;
+    cursor: pointer;
+    &:hover{
+        background-color: var(--cor-secundaria);
+    }
+}
