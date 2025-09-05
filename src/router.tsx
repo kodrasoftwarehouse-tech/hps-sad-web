@@ -1,4 +1,4 @@
-import { createBrowserRouter } from "react-router-dom";
+import { createHashRouter } from "react-router-dom"; // mudou aqui
 import { Home } from "./pages/home";
 import { CadastroConsultoria } from "./pages/consultoria/cadastro";
 import { SalaEspera } from "./pages/consultoria/salaEspera";
@@ -11,7 +11,7 @@ import { VisitasDriver } from "./driver-pages/visitas";
 import { MotoristaProviderLayout } from "./driver-pages/MotoristaProviderLayout";
 import { Login } from "./pages/login";
 
-export const Router = createBrowserRouter([
+export const Router = createHashRouter([  // aqui
   {
     path: "/login",
     element: <Login />,
