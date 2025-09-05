@@ -1,13 +1,16 @@
 {
   "name": "app",
   "private": true,
+   "homepage": "https://kodrasoftwarehouse-tech.github.io/hps-sad-web",
   "version": "0.0.0",
   "type": "module",
-  "scripts": {
+ "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "axios": "^1.10.0",
